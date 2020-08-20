@@ -6,6 +6,8 @@ My preferred alias for dstat:
 
     alias ds='dstat -tlrvn --rpi-thermal 10'
 
+dstat has been, unfortunately, abandoned by its creator; a result of RedHat creating pcp-dstat aliased to dstat. Be aware that you may unintentionally install pcp and pcp-dstat on some Linux distributions even though you're actually intending to install real dstat.
+
 Original:
 
 dstat-raspberry-pi
